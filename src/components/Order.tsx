@@ -18,7 +18,7 @@ function Projects() {
             )}
             {isAvailable && (
                 <div className="status-text">
-                Store will open soon...
+                Store has been transfered to only Discord Direct Messages.
                 </div>
             )}
         </div>
