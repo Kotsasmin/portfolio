@@ -1,0 +1,88 @@
+.home {
+
+  padding: 50px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.home h1 {
+  color: #999999;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.home h2 {
+  color: #8c6aff;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.home h3 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.home h4 {
+  color: #c5c5c5;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.buttons {
+  justify-content: center;
+  gap: 40px;
+}
+
+.no-underline {
+  text-decoration: none; 
+}
+
+
+/* Container to center the button */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Button styles */
+.contact-me-now-btn {
+  background-color: #8C6AFF;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+  width: 200px;
+}
+
+.contact-me-now-btn .text {
+  display: block;
+}
+
+.contact-me-now-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(140, 106, 255, 0.3);
+}
+
+.contact-me-now-btn:active {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(140, 106, 255, 0.2);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .contact-me-now-btn {
+    width: 160px; /* Reduce width */
+    padding: 10px 20px; /* Adjust padding */
+    font-size: 14px; /* Smaller font size */
+  }
+}
+

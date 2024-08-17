@@ -1,0 +1,89 @@
+.navbar {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  padding: 20px 40px;
+  border-radius: 30px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  max-width: 100%;
+  box-sizing: border-box;
+  opacity: 0.4; /* Reduced opacity for the fade effect */
+  transition: opacity 0.3s ease;
+}
+
+.navbar:hover, .navbar:active {
+  opacity: 1;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  min-width: 100%;
+}
+
+.navbar li {
+  margin: 0 25px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 24px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease, box-shadow 0.3s ease;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar a:hover {
+  background-color: #8C6AFF;
+  transform: scale(1.1);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.navbar a:active {
+  transform: scale(1.05);
+  background-color: #444;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 25px;
+    max-width: 100%;
+    opacity: 1;
+  }
+
+  .navbar ul {
+    padding: 0 10px;
+    min-width: auto;
+  }
+
+  .navbar li {
+    margin: 0 15px;
+  }
+
+  .navbar a {
+    padding: 10px 16px;
+    font-size: 1em;
+  }
+
+  .navbar a:hover {
+    transform: scale(1.05);
+  }
+
+
+  .navbar:active {
+    opacity: 1;
+  }
+}

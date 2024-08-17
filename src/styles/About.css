@@ -1,0 +1,70 @@
+.about {
+  padding: 50px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.about h2 {
+  color: #8c6aff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-right: 21px;
+  float: left;
+  margin-bottom: 21px;
+}
+
+.about-text h3 {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.about-text p {
+  color: #cccccc;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.technologies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Reduced min-width */
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.6px);
+  -webkit-backdrop-filter: blur(5.6px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px; /* Reduced padding */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.tech-item img {
+  width: 40px; /* Reduced size */
+  height: 40px; /* Reduced size */
+  margin-bottom: 10px;
+}
+
+.tech-item p {
+  color: #ffffff;
+  font-size: 14px; /* Reduced font size */
+}
+
+.tech-item:hover {
+  transform: scale(1.1); /* Enlarge the card */
+  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}

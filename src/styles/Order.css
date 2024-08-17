@@ -1,0 +1,31 @@
+.order {
+
+    padding: 50px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.status-title {
+    color: #8c6aff;
+    font-size: 40px;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+.status-available {
+    color: #00ff00; /* Green */
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.status-not-available {
+    color: #ff0000; /* Red */
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.status-text {
+    color: #cccccc; /* Grey */
+    font-size: 14px;
+    margin-top: 8px;
+}
