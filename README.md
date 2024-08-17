@@ -1,2 +1,2 @@
-# React + TypeScript + Vite
-Kotsasmin's Website
+# Kotsasmin's Website
+
