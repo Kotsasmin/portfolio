@@ -15,9 +15,9 @@ function Home() {
 
 
       <div className="center-container">
-      <Link to="/contact" className="no-underline">
+      <Link to="/about" className="no-underline">
   <div className="contact-me-now-btn">
-    <span className="text" >Contact me now!</span>
+    <span className="text" >Check out my skills!</span>
   </div>
 </Link>
 </div>
