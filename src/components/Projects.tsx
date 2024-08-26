@@ -40,7 +40,7 @@ function Projects() {
                 </div>
                 <div className="project-item">
                     <h3>HomeLab Automation</h3>
-                    <p>A fully automated HomeLab system that can scale from a single Raspberry Pi to a large computing setup. It includes support for CAS, proxies, containers, DNS servers, file hosting, and a central management dashboard.</p>
+                    <p>A fully automated HomeLab system that can scale from a single Raspberry Pi to a large computing setup. There will be installation of CasaOS, proxies, containers, DNS servers, file hosting, and a central management dashboard.</p>
                     <ul className="tech-list">
                         <li>Docker</li>
                         <li>CasaOS</li>
