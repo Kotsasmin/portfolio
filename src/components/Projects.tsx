@@ -5,22 +5,50 @@ function Projects() {
         <div className="projects section">
             <h2>Projects</h2>
             <p>Here are some of my most notable projects:</p>
+            <h4 className="soon-available">The projects page is under heavy development. Github and download links will be available in the future.</h4>
             <div className="project-list">
                 <div className="project-item">
-                    <h3>Project A</h3>
-                    <p>A web application for managing tasks.</p>
+                    <h3>Chat App</h3>
+                    <p>A real-time web and desktop chat application with user authentication, channel creation, and lightweight database integration.</p>
+                    <ul className="tech-list">
+                        <li>React</li>
+                        <li>Electron</li>
+                        <li>TypeScript</li>
+                        <li>Vite</li>
+                        <li>SQLite</li>
+                    </ul>
                 </div>
                 <div className="project-item">
-                    <h3>Project B</h3>
-                    <p>An e-commerce platform with advanced features.</p>
+                    <h3>Minecraft Launcher</h3>
+                    <p>A fully functional, offline-compatible Minecraft launcher with user authentication, server quick entry, and lightweight database support.</p>
+                    <ul className="tech-list">
+                        <li>Electron</li>
+                        <li>React</li>
+                        <li>TypeScript</li>
+                        <li>SQLite</li>
+                        <li>Node.js</li>
+                    </ul>
                 </div>
                 <div className="project-item">
-                    <h3>Project C</h3>
-                    <p>A social networking site with real-time chat.</p>
+                    <h3>Server Dashboard</h3>
+                    <p>A comprehensive server management tool providing usage overviews, note-taking, weather forecasting, and more.</p>
+                    <ul className="tech-list">
+                        <li>React</li>
+                        <li>Tailwind CSS</li>
+                        <li>Node.js</li>
+                    </ul>
                 </div>
                 <div className="project-item">
-                    <h3>Project D</h3>
-                    <p>Snake game</p>
+                    <h3>HomeLab Automation</h3>
+                    <p>A fully automated HomeLab system that can scale from a single Raspberry Pi to a large computing setup. It includes support for CAS, proxies, containers, DNS servers, file hosting, and a central management dashboard.</p>
+                    <ul className="tech-list">
+                        <li>Docker</li>
+                        <li>CasaOS</li>
+                        <li>DNS server/filter</li>
+                        <li>Status Dashboard</li>
+                        <li>NGINX</li>
+                        <li>DDNS Setup</li>
+                    </ul>
                 </div>
             </div>
         </div>

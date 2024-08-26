@@ -47,3 +47,16 @@
   color: #cccccc;
   font-size: 16px;
 }
+
+.tech-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #cccccc;
+}
+
+.soon-available {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+}
