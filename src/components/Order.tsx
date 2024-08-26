@@ -3,7 +3,7 @@ import '../styles/Order.css';
 
 function Projects() {
 
-    const isAvailable = true
+    const isAvailable = false
 
     return (
         <div className="order section">
