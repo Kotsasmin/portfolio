@@ -48,6 +48,7 @@ function Projects() {
                         <li>Status Dashboard</li>
                         <li>NGINX</li>
                         <li>DDNS Setup</li>
+                        <li>Firewall</li>
                     </ul>
                 </div>
             </div>

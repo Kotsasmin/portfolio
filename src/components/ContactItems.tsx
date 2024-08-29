@@ -10,7 +10,7 @@ function ContactItems() {
 
   //https://pastebin.com/6M5rwsci
   const handleDiscordClick = () => {
-    window.open('https://discord.gg/R4qW26uU', '_blank');
+    window.open('https://discordapp.com/users/299595508899643393', '_blank');
   };
 
   return (
