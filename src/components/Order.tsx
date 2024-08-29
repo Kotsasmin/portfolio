@@ -13,12 +13,12 @@ function Projects() {
             </div>
             {!isAvailable && (
                 <div className="status-text">
-                    Please come back later in a few days.
+                    Please come back later in a few days or try to contact me.
                 </div>
             )}
             {isAvailable && (
                 <div className="status-text">
-                Store has been transfered to only Discord Direct Messages.
+                Store has been transfered to only Discord Direct Messages and Email.
                 </div>
             )}
         </div>
