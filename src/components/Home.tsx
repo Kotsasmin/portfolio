@@ -11,6 +11,7 @@ function Home() {
       <h2>Kotsasmin</h2>
       <h1>I am an aspiring</h1>
       <React/>
+
       <h3>Full Stack Web Developer</h3>
 
       <div className="buttons">

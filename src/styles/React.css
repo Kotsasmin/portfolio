@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   background-color: transparent; /* Remove the background color */
+  
 }
 
 /* Media query for smaller screens */
@@ -16,17 +17,17 @@
   .loader {
     top: 70%; /* Adjust top position for smaller screens */
     right: 30%; /* Adjust right position for smaller screens */
-    height: 8rem; /* Reduce size */
-    width: 8rem; /* Reduce size */
+    height: 7rem; /* Reduce size */
+    width: 7rem; /* Reduce size */
   }
 }
 
 @media (max-width: 480px) {
   .loader {
     top: 75%; /* Further adjust top position for very small screens */
-    right: 30%; /* Keep some space on the right */
-    height: 6rem; /* Further reduce size */
-    width: 6rem; /* Further reduce size */
+    margin: 0 auto;
+    height: 5rem; /* Further reduce size */
+    width: 5rem; /* Further reduce size */
     transform: translateY(-50%) translateX(-10%); /* Adjust for horizontal centering */
   }
 }
