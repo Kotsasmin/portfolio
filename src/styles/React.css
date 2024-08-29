@@ -23,7 +23,7 @@
 
 @media (max-width: 480px) {
   .loader {
-    top: 90%; /* Further adjust top position for very small screens */
+    top: 75%; /* Further adjust top position for very small screens */
     right: 30%; /* Keep some space on the right */
     height: 6rem; /* Further reduce size */
     width: 6rem; /* Further reduce size */
