@@ -1,0 +1,27 @@
+.slogan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slogan-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
+    background: linear-gradient(135deg, #8C6AFF, #6D43FA);
+    background-size: 200%; /* Increase size to create a smooth transition */
+    background-position: left; /* Start gradient position from the left */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-position 2s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .slogan-text:hover {
+    background-position: right; /* Move gradient position to the right on hover */
+    transform: scale(1.05);
+  }
+  
