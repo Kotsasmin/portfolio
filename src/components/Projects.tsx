@@ -39,6 +39,15 @@ function Projects() {
                     </ul>
                 </div>
                 <div className="project-item">
+                    <h3>Personal Website</h3>
+                    <p>A personal portfolio website showcasing my skills, projects, and contact information.</p>
+                    <ul className="tech-list">
+                        <li>React</li>
+                        <li>Vite</li>
+                        <li>Nginx</li>
+                    </ul>
+                </div>
+                <div className="project-item">
                     <h3>HomeLab Automation</h3>
                     <p>A fully automated HomeLab system that can scale from a single Raspberry Pi to a large computing setup. There will be installation of CasaOS, proxies, containers, DNS servers, file hosting, and a central management dashboard.</p>
                     <ul className="tech-list">
