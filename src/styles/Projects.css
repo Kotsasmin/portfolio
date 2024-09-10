@@ -31,11 +31,26 @@
   width: 300px;
   text-align: left;
   transition: transform 0.3s ease;
+
+
+
+  background: rgb(40,40,55);
+  background: linear-gradient(344deg, rgba(40,40,55,1) 0%, rgba(16,16,18,1) 50%);
+  box-shadow: 4px 6px 14px #00000036;
+  border-radius: 3px;
+
+  padding: 16px;
+  transition: all .3s;
+
+ 
+
+ 
 }
 
 .project-item:hover {
   background-color: #3a3a3a;
   transform: scale(1.05);
+
 }
 
 .project-item h3 {
