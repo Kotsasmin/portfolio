@@ -1,9 +1,11 @@
 import '../styles/Projects.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faProjectDiagram} from '@fortawesome/free-solid-svg-icons';
 
 function Projects() {
     return (
         <div className="projects section">
-            <h2>Projects</h2>
+            <h2><FontAwesomeIcon icon={faProjectDiagram} /> Projects</h2>
             <p>Here are some of my most notable projects:</p>
             <h4 className="soon-available">The projects page is under heavy development. Github and download links will be available in the future.</h4>
             <div className="project-list">

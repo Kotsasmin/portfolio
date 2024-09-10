@@ -1,4 +1,5 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartShopping} from '@fortawesome/free-solid-svg-icons';
 import '../styles/Order.css';
 
 function Projects() {
@@ -7,7 +8,7 @@ function Projects() {
 
     return (
         <div className="order section">
-            <div className="status-title">Status</div>
+            <h2><FontAwesomeIcon icon={faCartShopping} /> Order</h2>
             <div className={isAvailable ? 'status-available' : 'status-not-available'}>
                 {isAvailable ? 'Available' : 'Not Available'}
             </div>

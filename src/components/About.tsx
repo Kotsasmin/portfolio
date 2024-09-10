@@ -1,4 +1,6 @@
 import '../styles/About.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faUser} from '@fortawesome/free-solid-svg-icons';
 
 const handleUniversityClick = () => {
   window.open('https://dit.uth.gr', '_blank');
@@ -44,7 +46,7 @@ function About() {
 
   return (
     <div className="about section">
-      <h2>About</h2>
+      <h2><FontAwesomeIcon icon={faUser} /> About</h2>
       <div className="about-content">
         <img src="images/profile.png" alt="Kotsasmin" className="profile-pic" />
         <div className="about-text">
