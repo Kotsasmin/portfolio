@@ -11,7 +11,7 @@ function Home() {
 
   React.useEffect(() => {
     const typewriter1 = new Typewriter(typewriterRef1.current, {
-      strings: ['Full Stack Web Developer', 'Software Engineer', 'Server Ops'],
+      strings: ['Full Stack Web Developer', 'Software Engineer'],
       autoStart: true,
       loop: true,
       delay: 75,
@@ -23,15 +23,14 @@ function Home() {
 
     const typewriter2 = new Typewriter(typewriterRef2.current, {
       strings: [
-        'a website', 
-        'a desktop app', 
-        'a server backend', 
-        'proxies', 
-        'an API', 
-        'a Minecraft launcher', 
-        'a custom dashboard for your company', 
-        'a user auth service',
-      ],      
+        'a portfolio',
+        'a responsive website',
+        'a full stack app (Windows/Unix)',
+        'a custom user authentication app',
+        'a cloud-based solution',
+        'a real-time chat application',
+        'a lot more!'
+      ],         
       autoStart: true,
       loop: true,
       delay: 75,
