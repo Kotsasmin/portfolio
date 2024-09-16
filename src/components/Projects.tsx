@@ -37,7 +37,7 @@ import '../styles/Projects.css'; import { FontAwesomeIcon } from '@fortawesome/r
           <li>Tailwind CSS</li>
           <li>Node.js</li>
         </ul>
-        <a href="http://kotsasmin.ddns.net:8080/dashboard/" target="_blank" rel="noopener noreferrer">
+        <a href="https://kotsasmindashboard.netlify.app/" target="_blank" rel="noopener noreferrer">
           <button>Take a look</button>
         </a>
       </div>
