@@ -19,12 +19,16 @@ function About() {
     { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg', url: 'https://www.typescriptlang.org/' },
     { name: 'Electron', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg', url: 'https://www.electronjs.org/' },
     { name: 'Vite', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg', url: 'https://vitejs.dev/' },
-  
+    { name: 'C', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg', url: 'https://www.programiz.com/c-programming' },
+    { name: 'C++', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg', url: 'https://cplusplus.com/' },
+
     // Back-End Development
     { name: 'NodeJS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg', url: 'https://nodejs.org/' },
     { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg', url: 'https://www.python.org/' },
     { name: 'PocketBase', icon: 'https://pocketbase.io/images/logo.svg', url: 'https://pocketbase.io/' },
     { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg', url: 'https://www.docker.com/' },
+    { name: 'Nginx', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg', url: 'https://nginx.org/en/' },
+    { name: 'Apache', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original.svg', url: 'https://apache.org/' },
   
     // Version Control and Collaboration
     { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg', url: 'https://git-scm.com/' },
@@ -38,6 +42,7 @@ function About() {
     // Operating Systems
     { name: 'Linux', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg', url: 'https://www.kernel.org/' },
     { name: 'Windows', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg', url: 'https://www.microsoft.com/en-us/windows/' },
+    { name: 'AWS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', url: 'https://aws.amazon.com/' },
   
     // Code Editors
     { name: 'VS Code', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg', url: 'https://code.visualstudio.com/' },
@@ -51,15 +56,16 @@ function About() {
       <div className="about-content">
         <img src="images/profile.png" alt="Kotsasmin" className="profile-pic" />
         <div className="about-text">
-          <h3>Who is this guy?</h3>
-          <p>I am Kotsasmin, an 18-year-old full-stack web developer from Greece with 5+ years of computer/programming experience. Currently, I am a student at the{' '}
-            <strong>
-              <em onClick={handleUniversityClick} style={{ cursor: 'pointer' }}> Department of Informatics and Telecommunications of the University of Thessaly </em>
-            </strong>.
-          </p>
-          <p>I'm eager to engage in a diverse range of projects, from building basic websites to developing full-stack desktop applications with custom backends and authentication systems. I am particularly interested in contributing to innovative and complex applications. My skill set spans both front-end and back-end technologies, as detailed below, and I am experienced in creating user interfaces that are both intuitive and visually appealing. My primary operating system is Linux, although I also use Windows for development purposes. Feel free to ask me any questions you might have.</p>
-          <h1>Technologies that I use:</h1>
-        </div>
+  <h3>Who is this guy?</h3>
+  <p>I am Kotsasmin, an 18-year-old full-stack web developer from Greece with 5+ years of computer/programming experience. Currently, I am a student at the{' '}
+    <strong>
+      <em onClick={handleUniversityClick} style={{ cursor: 'pointer' }}> Department of Informatics and Telecommunications of the University of Thessaly </em>
+    </strong>.
+  </p>
+  <p>I primarily focus on full-stack web applications and have a strong interest in developing service-oriented apps that enhance user interaction. While my core expertise lies in web development, I also enjoy working with lower-level programming languages to build efficient and lightweight applications. I'm passionate about creating intuitive, scalable solutions that seamlessly blend user experience with technical performance. My main development environment is Linux, but I also use Windows for certain projects. Feel free to reach out with any questions!</p>
+  <h1>Technologies that I use:</h1>
+</div>
+
       </div>
       <div className="technologies-grid">
         {technologies.map((tech, index) => (
