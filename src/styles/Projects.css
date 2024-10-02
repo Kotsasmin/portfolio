@@ -103,3 +103,10 @@ button:active {
   -webkit-transition: 100ms;
   transition: 100ms;
 }
+
+
+.dashboard-link {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Optional: Inherits the text color from parent elements */
+}
+
