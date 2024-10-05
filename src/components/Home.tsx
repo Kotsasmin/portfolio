@@ -25,7 +25,7 @@ function Home() {
       strings: [
         'a portfolio',
         'a responsive website',
-        'a full stack app (Windows/Unix)',
+        'a full stack web app',
         'a custom user authentication app',
         'a cloud-based solution',
         'a real-time chat application',
