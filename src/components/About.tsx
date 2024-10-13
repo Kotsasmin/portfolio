@@ -59,13 +59,23 @@ function About() {
         <img src="images/profile.png" alt="Kotsasmin" className="profile-pic" />
         <div className="about-text">
   <h3>Who is this guy?</h3>
-  <p>I am Kotsasmin, an 18-year-old full-stack web developer from Greece with 5+ years of computer/programming experience. Currently, I am a student at the{' '}
-    <strong>
-      <em onClick={handleUniversityClick} style={{ cursor: 'pointer' }}> Department of Informatics and Telecommunications of the University of Thessaly </em>
-    </strong>.
-  </p>
-  <p>I primarily focus on full-stack web applications and have a strong interest in developing service-oriented apps that enhance user interaction. While my core expertise lies in web development, I also enjoy working with lower-level programming languages to build efficient and lightweight applications. I'm passionate about creating intuitive, scalable solutions that seamlessly blend user experience with technical performance. My main development environment is Linux, but I also use Windows for certain projects. Feel free to reach out with any questions!</p>
-  <h1>Technologies that I use:</h1>
+<p>
+  I am Kotsasmin, an 18-year-old full-stack web developer from Greece with 5+ years of computer/programming experience. Currently, I am a student at the{' '}
+  <strong>
+    <em onClick={handleUniversityClick} style={{ cursor: 'pointer' }}> Department of Informatics and Telecommunications of the University of Thessaly </em>
+  </strong>.
+</p>
+<p>
+  I focus on full-stack web applications and enjoy developing service-oriented apps that enhance user interaction. My expertise lies in web development, but I also work with lower-level programming languages to create efficient applications. I'm passionate about intuitive, scalable solutions that blend user experience with technical performance. My main development environment is Linux, though I also use Windows for specific projects. I embrace problem-solving challenges and continuously learn new technologies in this rapidly evolving field.
+</p>
+<p>
+  I utilize a diverse tech stack to build robust and user-friendly web applications. My front-end skills include ReactJS, Next.js, and TailwindCSS for responsive user interfaces, while my back-end development leverages Node.js and Python for effective data handling. I implement SQLite and PocketBase for seamless data storage and retrieval.
+</p>
+<p>
+  Additionally, I use Docker for containerization, simplifying deployment across environments, and rely on Git and GitHub for collaboration with other developers. This combination allows me to create applications that meet user needs while ensuring optimal performance and scalability. Feel free to reach out with any questions!
+</p>
+
+<h1>Technologies that I use:</h1>
 </div>
 
       </div>
