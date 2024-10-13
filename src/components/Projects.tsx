@@ -53,6 +53,19 @@ import '../styles/Projects.css'; import { FontAwesomeIcon } from '@fortawesome/r
         </ul>
         </a>
       </div>
+      <div className="project-item">
+      <a href="" rel="noopener noreferrer" className="dashboard-link">
+        <h3>PageNest (soon)</h3>
+        <p>A full-stack web app designed to maximize the potential of your notes. With a sleek, modern interface, it allows users to seamlessly save, organize, and access notes from any device, anywhere. Whether it's text, ideas, or experiences, this app empowers users to capture and manage their thoughts effortlessly.</p>
+        <ul className="tech-list">
+          <li>React</li>
+          <li>Next.js</li>
+          <li>PocketBase</li>
+          <li>Shadcn</li>
+          <li>Tailwind</li>
+        </ul>
+        </a>
+      </div>
       {/*
       <div className="project-item">
         <h3>HomeLab Automation</h3>
