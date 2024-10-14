@@ -37,11 +37,11 @@ function Home() {
         'a real-time chat application',
         'an interactive dashboard',
         'a custom API integration',
-        'a progressive web app (PWA)',
         'a robust backend architecture',
         'a microservices-based infrastructure',
-        'a content management system (CMS)',
+        'a server side application (ssr)',
         'a personalized user experience',
+        'a modern looking ui',
         'a lot more!'
       ],             
       autoStart: true,
