@@ -19,7 +19,7 @@ function Projects() {
             )}
             {isAvailable && (
                 <div className="status-text">
-                Store has been transfered to only Discord Direct Messages and Email for the moment.
+                The store is currently available through Discord Direct Messages and email.
                 </div>
             )}
         </div>
