@@ -67,14 +67,30 @@ function About() {
   </strong>.
 </p>
 <p>
-  I focus on full-stack web applications and enjoy developing service-oriented apps that enhance user interaction. My expertise lies in web development, but I also work with lower-level programming languages to create efficient applications. I'm passionate about intuitive, scalable solutions that blend user experience with technical performance. My main development environment is Linux, though I also use Windows for specific projects. I embrace problem-solving challenges and continuously learn new technologies in this rapidly evolving field.
+  I focus on full-stack web applications and enjoy developing service-oriented apps that enhance user 
+  interaction. My expertise lies in web development, but I also work with lower-level programming 
+  languages to create efficient applications. I'm passionate about building intuitive, scalable solutions that 
+  blend user experience with technical performance. My primary development environment is Linux, though I 
+  also use Windows for specific projects. I enjoy problem-solving challenges and continuously learn new 
+  technologies in this rapidly evolving field, whatever the cost.
 </p>
+
 <p>
-  I utilize a diverse tech stack to build robust and user-friendly web applications. My front-end skills include ReactJS, Next.js, and TailwindCSS for responsive user interfaces, while my back-end development leverages Node.js and Python for effective data handling. I implement SQLite and PocketBase for seamless data storage and retrieval.
+  I utilize a diverse tech stack to build robust and user-friendly web applications. 
+  My front-end skills include ReactJS, Next.js, and Tailwind CSS for responsive user interfaces, 
+  while my back-end development leverages Node.js and Python for efficient data handling. I also
+  have some experience with lower-level programming languages like C, assembly, and pure binary! Though I still
+  have a lot to learn, I implement SQLite and PocketBase for seamless data storage and retrieval and use AWS to 
+  deploy and manage my applications.
 </p>
+
 <p>
-  Additionally, I use Docker for containerization, simplifying deployment across environments, and rely on Git and GitHub for collaboration with other developers. This combination allows me to create applications that meet user needs while ensuring optimal performance and scalability. Feel free to reach out with any questions!
+  Additionally, I use Docker for containerization, simplifying deployment across environments, 
+  and rely on Git and GitHub/Gitea for collaboration with other developers. This combination allows me 
+  to create applications that meet user needs while ensuring optimal performance and scalability. 
+  Feel free to reach out with any questions!
 </p>
+
 
 <h1>Technologies that I use:</h1>
 </div>
