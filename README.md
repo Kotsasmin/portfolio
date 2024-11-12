@@ -16,8 +16,8 @@ To get started with this project, follow these steps:
 
 1. **Clone the Repository**
    ```
-   git clone soon...
-   cd portfolio-website
+   git clone https://github.com/Kotsasmin/portofolio.git
+   cd portfolio
    ```
 
 2. **Install Dependencies**
