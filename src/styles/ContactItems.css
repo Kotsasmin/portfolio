@@ -37,7 +37,7 @@
 .light-button button.bt .button-holder svg,
 .light-button-email button.bt-email .button-holder-email svg {
   height: 50px;
-  fill: #0f0f0f;
+  fill: #4d4d4d;
   transition: 300ms;
 }
 
@@ -77,12 +77,24 @@
   fill: rgba(88, 101, 242, 1);
 }
 
+.light-button-github button.bt-github:hover .button-holder-github svg {
+  fill: rgb(255, 255, 255);
+}
+
+
 .light-button button.bt:hover .button-holder,
 .light-button-email button.bt-email:hover .button-holder-email {
   color: rgba(88, 101, 242, 1);
   outline: rgba(88, 101, 242, 1) 2px solid;
   outline-offset: 2px;
 }
+
+.light-button-github button.bt-github:hover .button-holder-github {
+  color: rgb(255, 255, 255);
+  outline: rgb(255, 255, 255) 2px solid;
+  outline-offset: 2px;
+}
+
 
 .light-button button.bt:hover .light-holder .light,
 .light-button-email button.bt-email:hover .light-holder-email .light-email {
@@ -93,6 +105,16 @@
       rgba(255, 255, 255, 0) 100%
   );
 }
+
+.light-button-github button.bt-github:hover .light-holder-github .light-github {
+  background: linear-gradient(
+      180deg,
+      rgb(255, 255, 255) 0%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+  );
+}
+
 
 .light-button-email button.bt-email:hover .button-holder-email svg {
   fill: rgb(240, 63, 63);
@@ -144,4 +166,19 @@
           rgba(255, 255, 255, 0) 100%
       );
   }
+  .light-button-github button.bt-github .button-holder-github,
+  .light-button-github button.bt-github .button-holder-github svg,
+  .light-button-github button.bt-github .light-holder-github .light-github {
+      color: rgb(255, 255, 255);
+      fill: rgb(255, 255, 255);
+      background: linear-gradient(
+          180deg,
+          rgb(255, 255, 255) 0%,
+          rgba(255, 255, 255, 0) 75%,
+          rgba(255, 255, 255, 0) 100%
+      );
+  }
 }
+
+
+
