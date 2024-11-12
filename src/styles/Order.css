@@ -13,19 +13,19 @@
   }
 
 .status-available {
-    color: #00ff00; /* Green */
+    color: #00ff00;
     font-weight: bold;
     font-size: 36px;
 }
 
 .status-not-available {
-    color: #ff0000; /* Red */
+    color: #ff0000;
     font-weight: bold;
     font-size: 36px;
 }
 
 .status-text {
-    color: #cccccc; /* Grey */
+    color: #cccccc;
     font-size: 14px;
     margin-top: 8px;
 }

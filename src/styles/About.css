@@ -34,7 +34,7 @@
 
 .technologies-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Reduced min-width */
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 20px;
   margin-top: 40px;
 }
@@ -50,22 +50,22 @@
   backdrop-filter: blur(5.6px);
   -webkit-backdrop-filter: blur(5.6px);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 10px; /* Reduced padding */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tech-item img {
-  width: 40px; /* Reduced size */
-  height: 40px; /* Reduced size */
+  width: 40px;
+  height: 40px;
   margin-bottom: 10px;
 }
 
 .tech-item p {
   color: #ffffff;
-  font-size: 14px; /* Reduced font size */
+  font-size: 14px;
 }
 
 .tech-item:hover {
-  transform: scale(1.1); /* Enlarge the card */
-  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  transform: scale(1.1);
+  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.2);
 }

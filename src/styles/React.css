@@ -1,24 +1,22 @@
 .loader {
-  position: absolute; /* Position the loader absolutely within its parent */
-  top: 30%; /* Initially set the vertical position */
-  right: 10%; /* Initially set the right position */
-  transform: translateY(-50%); /* Adjust for vertical centering */
+  position: absolute;
+  top: 30%;
+  right: 10%; 
+  transform: translateY(-50%); 
   height: 10rem;
   width: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: transparent; /* Remove the background color */
-  
+  background-color: transparent; 
+
 }
 
-/* Media query for smaller screens */
 @media (max-width: 1192px) {
   .loader {
     display: none;
   }
 }
-
 
 .react-star {
   position: relative;
