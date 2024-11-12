@@ -16,7 +16,7 @@ To get started with this project, follow these steps:
 
 1. **Clone the Repository**
    ```
-   git clone https://github.com/Kotsasmin/portofolio.git
+   git clone https://github.com/Kotsasmin/portfolio.git
    cd portfolio
    ```
 
