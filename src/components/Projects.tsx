@@ -43,7 +43,7 @@ import '../styles/Projects.css'; import { FontAwesomeIcon } from '@fortawesome/r
         </a>
       </div>
       <div className="project-item">
-      <a href="https://kotsasmin.dev" target="_blank" rel="noopener noreferrer" className="dashboard-link">
+      <a href="https://github.com/Kotsasmin/portofolio" target="_blank" rel="noopener noreferrer" className="dashboard-link">
         <h3>Personal Website</h3>
         <p>A personal portfolio website showcasing my skills, projects, and contact information.</p>
         <ul className="tech-list">
