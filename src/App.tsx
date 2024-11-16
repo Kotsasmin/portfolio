@@ -1,4 +1,3 @@
-// src/App.tsx
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import './App.css';
@@ -8,7 +7,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Order from './components/Order';
-import Donate from './components/Donate';  // Import the Donate component
+import Donate from './components/Donate';
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
       <div className="app">
         <Navbar />
         <Main />
-        <Donate /> {/* Add Donate button here */}
+        <Donate />
       </div>
     </Router>
   );
