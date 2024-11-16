@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Less Perfect DOS VGA';
+    src: url('https://cdn.shopify.com/s/files/1/0014/1962/files/LessPerfectDOSVGA.woff2') format('woff2'),
+         url('https://cdn.shopify.com/s/files/1/0014/1962/files/LessPerfectDOSVGA.woff') format('woff'),
+         url('https://cdn.shopify.com/s/files/1/0014/1962/files/LessPerfectDOSVGA.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.dos {
+    font-family: 'Less Perfect DOS VGA', monospace;
+    filter: contrast(1);
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: grayscale;
+    letter-spacing: 1px;
+    line-height: 1.05;
+    background: #1C1C1C;
+    padding: 0.75rem 1.25rem;
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: 6px ridge #F6CA4D;
+  }
