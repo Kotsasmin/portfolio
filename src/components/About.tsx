@@ -1,7 +1,7 @@
 import '../styles/About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
-import Card from './Card.tsx'; // Import the Card component
+import Card from './Card.tsx';
 import { useState } from 'react';
 
 const handleUniversityClick = () => {
@@ -9,7 +9,7 @@ const handleUniversityClick = () => {
 };
 
 function About() {
-  const [isHovered, setIsHovered] = useState(false); // State to track hover
+  const [isHovered, setIsHovered] = useState(false);
 
   const technologies = [
     { name: 'ReactJS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg', url: 'https://react.dev/' },

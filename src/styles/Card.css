@@ -21,3 +21,34 @@
     border-radius: 6px;
     border: 6px ridge #F6CA4D;
   }
+
+
+  .card-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 10;
+  }
+  
+  .card-container.fade-in {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+
+  @media (max-width: 768px) {
+    .card-container {
+      top: 60%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card-container {
+      top: 70%;
+    }
+  }
+  
