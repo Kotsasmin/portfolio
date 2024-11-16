@@ -17,7 +17,8 @@ function Home() {
         'Network Enthusiast',
         'DevOps Practitioner',
         'Cloud Architect',
-        'Cybersecurity Enthusiast'
+        'Cybersecurity Enthusiast',
+        'Low level/logic Enthusiast'
       ],
       autoStart: true,
       loop: true,
