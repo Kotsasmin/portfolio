@@ -7,8 +7,6 @@ function ContactItems() {
   };
 
 
-
-  //https://pastebin.com/6M5rwsci
   const handleDiscordClick = () => {
     window.open('https://discordlookup.com/user/299595508899643393', '_blank');
   };
