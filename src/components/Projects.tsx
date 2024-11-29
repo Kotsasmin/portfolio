@@ -3,7 +3,7 @@ import '../styles/Projects.css'; import { FontAwesomeIcon } from '@fortawesome/r
       <FontAwesomeIcon icon={faProjectDiagram} /> Projects
     </h2>
     <p>Here are some of my most notable projects:</p>
-<h4 className="soon-available">Many more projects are on their way, it is only a matter of time before they are finished.</h4>
+<h4 className="soon-available">Many more projects are on the way! Check out my GitHub for more.</h4>
     <div className="project-list">
 {/*
       <div className="project-item">
