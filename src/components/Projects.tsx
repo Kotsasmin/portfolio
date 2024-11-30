@@ -5,31 +5,6 @@ import '../styles/Projects.css'; import { FontAwesomeIcon } from '@fortawesome/r
     <p>Here are some of my most notable projects:</p>
 <h4 className="soon-available">Many more projects are on the way! Check out my GitHub for more.</h4>
     <div className="project-list">
-{/*
-      <div className="project-item">
-        <h3>Chat App</h3>
-        <p>A real-time web and desktop chat application with user authentication, channel creation, and lightweight database integration.</p>
-        <ul className="tech-list">
-          <li>React</li>
-          <li>Electron</li>
-          <li>TypeScript</li>
-          <li>Vite</li>
-          <li>SQLite</li>
-        </ul>
-        <p>Project link coming soon</p>
-      </div>
-      <div className="project-item">
-        <h3>Minecraft Launcher</h3>
-        <p>A fully functional, offline-compatible Minecraft launcher with user authentication, server quick entry, and lightweight database support.</p>
-        <ul className="tech-list">
-          <li>Electron</li>
-          <li>React</li>
-          <li>TypeScript</li>
-          <li>SQLite</li>
-          <li>Node.js</li>
-        </ul>
-        <p>Project link coming soon</p>
-      </div>*/}
       <div className="project-item">
       <a href="https://kotsasmindashboard.netlify.app/" target="_blank" rel="noopener noreferrer" className="dashboard-link">
         <h3>Dashboard</h3>
