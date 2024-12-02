@@ -3,7 +3,7 @@ import '../styles/Projects.css'; import { FontAwesomeIcon } from '@fortawesome/r
       <FontAwesomeIcon icon={faProjectDiagram} /> Projects
     </h2>
     <p>Here are some of my most notable projects:</p>
-<h4 className="soon-available">Many more projects are on the way! Check out my GitHub for more.</h4>
+<h4 className="soon-available">Many more projects are on the way! Check out my GitHub for more as I post more of my stuff there.</h4>
     <div className="project-list">
       <div className="project-item">
       <a href="https://kotsasmindashboard.netlify.app/" target="_blank" rel="noopener noreferrer" className="dashboard-link">
