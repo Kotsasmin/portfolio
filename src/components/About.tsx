@@ -78,7 +78,7 @@ function About() {
           </p>
 
           <p>
-          I utilize a diverse tech stack to build robust and user-friendly web applications. My front-end skills include ReactJS, Next.js, and Tailwind CSS for responsive user interfaces, while my back-end development leverages Node.js and Python for efficient data handling. I also have some experience with lower-level programming languages like C, assembly, and pure binary! I frequently work with Proxmox and hypervisors to manage virtualized environments effectively. Though I still have a lot to learn, I implement SQLite and PocketBase for seamless data storage and retrieval and use AWS to deploy and manage my applications.</p>
+          I utilize a diverse tech stack to build robust and user-friendly web applications. My front-end skills include ReactJS, Next.js, and Tailwind CSS for responsive user interfaces, while my back-end development leverages Node.js and Python for efficient data handling. I also have some experience with lower-level programming languages like C and assembly. I frequently work with Proxmox and hypervisors to manage virtualized environments effectively. Though I still have a lot to learn, I implement SQLite and PocketBase for seamless data storage and retrieval and use AWS to deploy and manage my applications.</p>
           <p>
             Additionally, I use Docker for containerization, simplifying deployment across environments, and rely on Git and GitHub/Gitea for collaboration with other developers. This combination allows me to create applications that meet user needs while ensuring optimal performance and scalability. Feel free to reach out with any questions!
           </p>
