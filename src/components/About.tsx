@@ -74,7 +74,7 @@ function About() {
             </strong>.
           </p>
           <p>
-            I focus on full-stack web applications and enjoy developing service-oriented apps that enhance user interaction. My expertise lies in web development, but I also work with lower-level programming languages to create efficient applications. I'm passionate about building intuitive, scalable solutions that blend user experience with technical performance. My primary development environment is Linux, though I also use Windows for specific projects. I enjoy problem-solving challenges and continuously learn new technologies in this rapidly evolving field, whatever the cost. While I’m still honing my skills, I am dedicated to learning and growing as a developer. My goal is to leverage my expertise and advancements in technology, such as AI, to create impactful solutions that add real value.
+            I focus on full-stack web applications and enjoy developing service-oriented apps that enhance user interaction. My knowledge lies in web development, but I also work with lower-level programming languages to create efficient applications. I'm passionate about building intuitive, scalable solutions that blend user experience with technical performance. My primary development environment is Linux, though I also use Windows for specific projects. I enjoy problem-solving challenges and continuously learn new technologies in this rapidly evolving field, whatever the cost. While I’m still honing my skills, I am dedicated to learning and growing as a developer. My goal is to leverage my expertise and advancements in technology, such as AI, to create impactful solutions that add real value.
           </p>
 
           <p>
