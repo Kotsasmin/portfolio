@@ -14,7 +14,7 @@ function Projects() {
             </div>
             {!isAvailable && (
                 <div className="status-text">
-                    Please come back later in a few days or try to contact me.
+                    Please come back later in a few days or try to contact me through discord or email.
                 </div>
             )}
             {isAvailable && (
