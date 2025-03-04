@@ -64,7 +64,7 @@ function Home() {
     <div className="home section">
       <h1>Hi, my name is</h1>
       <h2>Kotsasmin</h2>
-      <h1>I am an aspiring</h1>
+      <h1>I am a</h1>
       <ReactAnimation />
 
       <h3 ref={typewriterRef1}></h3>
