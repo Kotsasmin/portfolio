@@ -13,7 +13,7 @@ function About() {
 
   const techGroups = [
     {
-      title: 'Technologies I Use Daily',
+      title: 'Technologies that I use Daily',
       description: 'As a full-stack developer, I have experience in delivering feature-rich web applications, including ERP systems, e-commerce platforms, project management tools, CRM solutions, and custom web apps. I design and develop efficient, performance-driven web solutions that prioritize user experience and operational reliability. Whether developing full-featured websites, creating cloud-based systems, or managing deployment workflows, I handle all aspects of the process to ensure seamless integration and scalability. Here are the technologies that form the foundation of my daily work:',
       technologies: [
         { name: 'ReactJS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg', url: 'https://react.dev/' },
@@ -53,7 +53,7 @@ function About() {
       ]
     },
     {
-      title: 'Technologies I Am Proficient In',
+      title: 'Technologies that I use not so often',
       description: 'These technologies form the foundation of many full-stack applications. While not my primary focus, I use them from time to time develop and maintain functional applications. I often integrate tools from my primary technology stack when necessary to build seamless user experiences and deliver high-quality software solutions.',
       technologies: [
         { name: 'Bootstrap', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg', url: 'https://getbootstrap.com/' },
@@ -66,7 +66,7 @@ function About() {
       ]
     },
     {
-      title: 'Technologies I Am Learning',
+      title: 'Technologies I am still learning',
       description: 'I am always striving to stay ahead of the curve, which is why I am actively learning and exploring new technologies. These tools offer advanced capabilities in fields like artificial intelligence, machine learning, and embedded systems.',
       technologies: [
         { name: 'Assembly', icon: 'https://static-00.iconduck.com/assets.00/assembly-icon-1024x1024-lc5e1bk1.png', url: 'https://mips.com/' },
