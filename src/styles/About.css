@@ -22,9 +22,12 @@
 }
 
 @keyframes bounce {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-7px);
   }
@@ -58,9 +61,11 @@
 
 .technologies-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 30px;
+  justify-content: center;
   margin-top: 40px;
+  max-width: 90%;
 }
 
 .tech-item {
@@ -74,7 +79,11 @@
   backdrop-filter: blur(5.6px);
   -webkit-backdrop-filter: blur(5.6px);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 10px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -92,4 +101,20 @@
 .tech-item:hover {
   transform: scale(1.1);
   box-shadow: 0 6px 40px rgba(0, 0, 0, 0.2);
+}
+
+
+.tech-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.tech-group h3 {
+  text-align: center;
+  margin: 40px 0 20px 0;
+  font-size: 24px;
+  color: #ffffff;
 }

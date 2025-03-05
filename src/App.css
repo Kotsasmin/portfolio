@@ -1,10 +1,15 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif; /* Change from Arial to Poppins */
   background-color: #121212;
   color: #e0e0e0;
 }
 
+*{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+ 
+}
 .app {
   display: flex;
   flex-direction: column;
