@@ -14,11 +14,11 @@ COPY . .
 # Build the app (using npm run build)
 RUN npm run build
 
-# Install a simple HTTP server to serve the build
+# Install 'serve' globally to serve the production build
 RUN npm install -g serve
 
 # Expose the port the app runs on
 EXPOSE 3000
 
-# Start the app
-CMD ["npm", "start"]
+# Serve the app using the 'dist' folder created by Vite
+CMD ["serve", "-s", "dist", "-l", "3000"]
