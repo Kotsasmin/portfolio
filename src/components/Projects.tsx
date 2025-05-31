@@ -6,7 +6,7 @@ import '../styles/Projects.css'; import { FontAwesomeIcon } from '@fortawesome/r
 <h4 className="soon-available">Many more projects are on the way! Check out my GitHub for more as I post more of my stuff there.</h4>
     <div className="project-list">
       <div className="project-item">
-      <a href="https://kotsasmindashboard.netlify.app/" target="_blank" rel="noopener noreferrer" className="dashboard-link">
+      <a href="https://dashboard.kotsasmin.dev" target="_blank" rel="noopener noreferrer" className="dashboard-link">
         <h3>Dashboard</h3>
         <p>An all-in-one modern-looking dashboard for note-taking, web searching, Pomodoro timer, weather forecast, and website shortcuts.</p>
         <ul className="tech-list">
@@ -28,9 +28,9 @@ import '../styles/Projects.css'; import { FontAwesomeIcon } from '@fortawesome/r
         </a>
       </div>
       <div className="project-item">
-      <a href="https://github.com/Kotsasmin/pagenest" target="_blank" rel="noopener noreferrer" className="dashboard-link">
+      <a href="https://pagenest.kotsasmin.dev" target="_blank" rel="noopener noreferrer" className="dashboard-link">
         <h3>PageNest</h3>
-        <p>A full-stack web app designed to maximize the potential of your notes. With a sleek, modern interface, it allows users to seamlessly save, organize, and access notes from any device, anywhere. Whether it's text, ideas, or experiences, this app empowers users to capture and manage their thoughts effortlessly.</p>
+        <p>A full-stack web app designed to maximize the potential of your notes. With a sleek, modern interface, it allows users to seamlessly save, organize, and access notes from any device, anywhere. Whether it's text, ideas, or experiences, this app empowers users to capture and manage their thoughts effortlessly. (Demo page data is reset every 24 hours)</p>
         <ul className="tech-list">
           <li>React</li>
           <li>Next.js</li>
