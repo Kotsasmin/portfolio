@@ -40,6 +40,16 @@ import '../styles/Projects.css'; import { FontAwesomeIcon } from '@fortawesome/r
         </ul>
         </a>
       </div>
+            <div className="project-item">
+      <a href="https://ambient.kotsasmin.dev" target="_blank" rel="noopener noreferrer" className="dashboard-link">
+        <h3>Ambient Player</h3>
+        <p>My humble attempt to reacreate youtube's ambient effect using typescript's useEffect</p>
+        <ul className="tech-list">
+          <li>React</li>
+          <li>Typescript</li>
+        </ul>
+        </a>
+      </div>
       {/*
       <div className="project-item">
         <h3>HomeLab Automation</h3>

@@ -54,7 +54,7 @@ function About() {
       ]
     },
     {
-      title: 'Technologies that I use not so often',
+      title: 'Technologies that I use not so often (but know how to code with them)',
       description: 'These technologies form the foundation of many full-stack applications. While not my primary focus, I use them from time to time develop and maintain functional applications. I often integrate tools from my primary technology stack when necessary to build seamless user experiences and deliver high-quality software solutions.',
       technologies: [
         { name: 'Bootstrap', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg', url: 'https://getbootstrap.com/' },
