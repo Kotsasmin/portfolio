@@ -5,7 +5,7 @@ import Card from './Card.tsx';
 import { useState } from 'react';
 
 const handleUniversityClick = () => {
-  window.open('https://dit.uth.gr', '_blank');
+  window.open('https://dit.uth.gr/?page_id=38633&lang=en', '_blank');
 };
 
 function About() {
