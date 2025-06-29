@@ -84,7 +84,7 @@ function Home() {
           </Link>
         </div>
               <h1 className="soon-available">
-        My portfolio is under reconstruction. New UI and functionalities are coming soon!
+        A new portfolio page with more features and improvements is coming soon!
       </h1>
       </div>
     </div>
