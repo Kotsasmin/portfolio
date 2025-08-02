@@ -83,9 +83,7 @@ function Home() {
             </div>
           </Link>
         </div>
-              <h1 className="soon-available">
-        A new portfolio page with more features and improvements is coming soon!
-      </h1>
+              
       </div>
     </div>
   );
