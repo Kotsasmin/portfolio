@@ -117,6 +117,26 @@ function Projects() {
             </a>
           </div>
         </div>
+
+
+        <div className="project-item">
+          <h3>Modiva Launchers</h3>
+          <p>
+            A soon to launch project offering custom Minecraft launchers automating setup, simplifying server access, and enhancing player and server owner experiences.
+          </p>
+          <ul className="tech-list">
+            <li>Next.js</li>
+            <li>Vite</li>
+            <li>Tauri</li>
+            <li>Rust</li>
+            <li>SQLite</li>
+          </ul>
+          <div className="project-buttons">
+            <a href="https://discord.gg/fBuX7wP4Xj" target="_blank" rel="noopener noreferrer">
+              <button>Discord Server</button>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
