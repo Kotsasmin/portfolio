@@ -132,8 +132,8 @@ function Projects() {
             <li>SQLite</li>
           </ul>
           <div className="project-buttons">
-            <a href="https://discord.gg/fBuX7wP4Xj" target="_blank" rel="noopener noreferrer">
-              <button>Discord Server</button>
+            <a href="https://modiva-launcher.xyz" target="_blank" rel="noopener noreferrer">
+              <button>Website</button>
             </a>
           </div>
         </div>
