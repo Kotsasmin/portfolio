@@ -137,6 +137,22 @@ function Projects() {
             </a>
           </div>
         </div>
+
+                <div className="project-item">
+          <h3>Broadband checker</h3>
+          <p>
+            A simple broadband speed checker I built for personal use. It shows my current speed against the highest plan available from my ISP at my location.
+          </p>
+          <ul className="tech-list">
+            <li>Next.js</li>
+            <li>A reverse engeinerd goverment api XD</li>
+          </ul>
+          <div className="project-buttons">
+            <a href="https://broadband.kotsasmin.dev/" target="_blank" rel="noopener noreferrer">
+              <button>Live</button>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
