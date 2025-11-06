@@ -14,11 +14,11 @@ function Home() {
       strings: [
         'Full Stack Web Developer',
         'Software Engineer',
-        'Network Enthusiast',
+        'Network Engineer',
         'DevOps Practitioner',
         'Cloud Architect',
         'Cybersecurity Enthusiast',
-        'Low level/logic Enthusiast'
+        'Low level/logic Enthusiast/Student'
       ],
       autoStart: true,
       loop: true,
