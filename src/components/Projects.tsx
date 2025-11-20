@@ -28,7 +28,7 @@ function Projects() {
           </ul>
           <div className="project-buttons">
             <a href="https://dashboard.kotsasmin.dev" target="_blank" rel="noopener noreferrer">
-              <button>Demo</button>
+              <button>Live</button>
             </a>
             <a href="https://github.com/Kotsasmin/dashboard" target="_blank" rel="noopener noreferrer">
               <button>Source Code</button>
@@ -46,7 +46,7 @@ function Projects() {
           </ul>
           <div className="project-buttons">
             <a href="https://kotsasmin.dev/" target="_blank" rel="noopener noreferrer">
-              <button>Demo</button>
+              <button>Live</button>
             </a>
             <a href="https://github.com/Kotsasmin/portofolio" target="_blank" rel="noopener noreferrer">
               <button>Source Code</button>
@@ -72,7 +72,7 @@ function Projects() {
           </ul>
           <div className="project-buttons">
             <a href="https://pagenest.kotsasmin.dev" target="_blank" rel="noopener noreferrer">
-              <button>Demo</button>
+              <button>Live</button>
             </a>
             <a href="https://github.com/Kotsasmin/pagenest" target="_blank" rel="noopener noreferrer">
               <button>Source Code</button>
@@ -90,7 +90,7 @@ function Projects() {
           </ul>
           <div className="project-buttons">
             <a href="https://ambient.kotsasmin.dev" target="_blank" rel="noopener noreferrer">
-              <button>Demo</button>
+              <button>Live</button>
             </a>
             <a href="https://github.com/Kotsasmin/ambient-player" target="_blank" rel="noopener noreferrer">
               <button>Source Code</button>
@@ -111,7 +111,7 @@ function Projects() {
             <li>ffmpeg</li>
           </ul>
           <div className="project-buttons">
-            <button disabled>Demo (N/A)</button>
+            <button disabled>Live (N/A)</button>
             <a href="https://github.com/Kotsasmin/any-converter" target="_blank" rel="noopener noreferrer">
               <button>Source Code</button>
             </a>
@@ -150,6 +150,27 @@ function Projects() {
           <div className="project-buttons">
             <a href="https://broadband.kotsasmin.dev/" target="_blank" rel="noopener noreferrer">
               <button>Live</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="project-item">
+          <h3>Tiger Planner</h3>
+          <p>
+            A fun side project that I built that helps you keep track of your daily tasks. It is a reference to a daily planner sold by Flying TIger.
+          </p>
+          <ul className="tech-list">
+            <li>Next.js</li>
+            <li>React</li>
+            <li>CSS</li>
+            <li>Cookies for storage</li>
+          </ul>
+          <div className="project-buttons">
+            <a href="https://planner.kotsasmin.dev" target="_blank" rel="noopener noreferrer">
+              <button>Live</button>
+            </a>
+            <a href="https://github.com/Kotsasmin/tiger-planner" target="_blank" rel="noopener noreferrer">
+              <button>Source Code</button>
             </a>
           </div>
         </div>
